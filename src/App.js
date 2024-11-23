@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from './Comps/Nav';
-import Home from './Comps/Home';
-import Login from './Comps/Login';
-import Donation_Form from './Comps/Donation-Form';
+import MyNav from './Comps/Nav';
+
 import { BrowserRouter } from 'react-router-dom';
+import Myrouter from './Myrouter';
 function App() {
   
   return (
@@ -13,6 +12,9 @@ function App() {
       <BrowserRouter>
 
       
+      <MyNav></MyNav>
+
+      <Myrouter></Myrouter>
 
       </BrowserRouter>
     </div>
@@ -23,9 +25,3 @@ export default App;
 
 
 
-{/* <Nav></Nav>
-<Home></Home>
-<Login>
-
-</Login>
-<Donation_Form></Donation_Form> */}
