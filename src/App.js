@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
 
-      <Nav></Nav>
+      
 
       </BrowserRouter>
     </div>
