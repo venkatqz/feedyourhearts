@@ -263,7 +263,7 @@ function SignUp() {
         {errorMessages.server && <p className="text-danger">{errorMessages.server}</p>}
         {successMessage && <p className="text-success">{successMessage}</p>}
 
-        <Button className="mt-3" variant="primary" type="submit">
+        <Button className="mt-3" color='#104525' type="submit">
           Submit
         </Button>
       </Form>

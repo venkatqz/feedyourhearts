@@ -4,6 +4,9 @@ import Home from './Comps/Home';
 import Login from './pages/Login';
 import Donation_Form from './Comps/Donation-Form';
 import SignUp from './pages/SignUp';
+import ItemCards from './pages/OrphanageList';
+import DummyDataDisplay from './pages/DummyReq';
+
 
 function Myrouter() {
   return (
@@ -12,6 +15,7 @@ function Myrouter() {
       <Route path="/signup" element={<SignUp />} />
       <Route path="/login" element={<Login />} />
       <Route path="/donation-form" element={<Donation_Form />} />
+      <Route path="/request-list" element={<DummyDataDisplay></DummyDataDisplay>}></Route>
       
     </Routes>
   );
